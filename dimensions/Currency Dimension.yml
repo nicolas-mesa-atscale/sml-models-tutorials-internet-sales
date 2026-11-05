@@ -1,0 +1,17 @@
+unique_name: Currency Dimension
+object_type: dimension
+label: Currency
+type: standard
+hierarchies:
+  - unique_name: Currency Hierarchy
+    label: Currency
+    levels:
+      - unique_name: Currency
+level_attributes:
+  - unique_name: Currency
+    label: Currency
+    is_unique_key: true
+    dataset: dim_currency
+    name_column: currencyname
+    key_columns:
+      - currencykey

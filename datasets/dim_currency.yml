@@ -1,0 +1,12 @@
+unique_name: dim_currency
+object_type: dataset
+label: dim_currency.yml
+columns:
+  - name: currencykey
+    data_type: int
+  - name: currencyalternatekey
+    data_type: string
+  - name: currencyname
+    data_type: string
+connection_id: Connection - Internet Sales
+table: dimcurrency
